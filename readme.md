@@ -1,3 +1,37 @@
+# 📌 [과제] 오픈소스 연구 논문 분석 보고서
+- 학번: 2023315783
+- 1조 : 송영집
+- 주제: FoundationPose (6D Object Pose Estimation)
+
+---
+
+### 1. 실행 환경 (Environment)
+- **플랫폼:** 엘리스 클라우드 (Elice Cloud) GPU 인스턴스
+- **OS / CUDA:** Ubuntu / CUDA (12.4)
+- **실행 옵션:** Option 2 (Local Build without Docker)
+
+### 2. 직접 실행 결과 (Results)
+* 엘리스 클라우드 환경에서 성공적으로 추론(Inference)을 완료한 결과 이미지입니다.
+
+### 0. 
+<img width="632" height="686" alt="run_demo_위에잘림" src="https://github.com/user-attachments/assets/73d330ee-e3ee-4f87-8b69-7a7b436032a2" />
+<img width="643" height="648" alt="run_demo1" src="https://github.com/user-attachments/assets/f0f3b196-c2c7-4f83-bb6a-b87495440602" />
+<img width="634" height="640" alt="run_demo2" src="https://github.com/user-attachments/assets/1a1fd0a1-7c45-4cf1-97cc-23b52c0e4ae6" />
+<img width="634" height="617" alt="run_demo3" src="https://github.com/user-attachments/assets/e0a751a4-183e-472f-bd14-b72bcd4f392e" />
+<img width="631" height="614" alt="run_demo4" src="https://github.com/user-attachments/assets/66c3b719-040b-4476-b2d2-bd13d6cb8a72" />
+<img width="640" height="644" alt="run_demo5" src="https://github.com/user-attachments/assets/73d9b2c6-d291-4440-a856-3705b7a6189f" />
+<img width="637" height="641" alt="run_demo6" src="https://github.com/user-attachments/assets/2085a826-4560-44d8-96f9-07ef443399f3" />
+
+
+### 3. 실행 프로세스 요약 (How to Run)
+터미널 로그는 유실되었으나, 아래의 프로세스로 실행을 완료하였습니다.
+1. 엘리스 CUDA 인스턴스 환경 생성 및 필수 패키지 설치 (`pip install -r requirements.txt`)
+2. 가중치 파일(Weights) 및 데모 데이터셋 다운로드
+3. `Option 2` 가이드에 따른 빌드 진행 (`원래 실행했던 명령어 예: python demo.py --config ...`)
+
+---
+*(이 아래부터는 원본 NVlabs 코드가 이어집니다)*
+
 # FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects
 [[Paper]](https://arxiv.org/abs/2312.08344) [[Website]](https://nvlabs.github.io/FoundationPose/)
 
