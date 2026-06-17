@@ -24,7 +24,6 @@
 
 
 ### 3. 실행 프로세스 요약 (How to Run)
-터미널 로그는 유실되었으나, 아래의 프로세스로 실행을 완료하였습니다.
 1. 엘리스 CUDA 인스턴스 환경 생성 및 필수 패키지 설치 (`pip install -r requirements.txt`)
 2. 가중치 파일(Weights) 및 데모 데이터셋 다운로드
 3. `Option 2` 가이드에 따른 빌드 진행 (`원래 실행했던 명령어 예: python demo.py --config ...`)
