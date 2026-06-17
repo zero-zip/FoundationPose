@@ -16,7 +16,6 @@
 | 대상 모델 | FoundationPose: Unified 6D Pose Estimation and Tracking of Novel Objects (Wen, Yang, Kautz, Birchfield, CVPR 2024 Highlight, arXiv:2312.08344) |
 | 원본 코드 | https://github.com/NVlabs/FoundationPose |
 | 사용 AI 도구 | Anthropic Claude (대화형 assistant) |
-| 결과 산출물 | https://github.com/zero-zip/FoundationPose/tree/main |
 | 재현 환경 | Elice AICE 클라우드 플랫폼, GPU 인스턴스 G-NAHP-80 (NVIDIA A100 80GB PCIe, 79GiB 가용, sm_80), CPU 16 vCore, Memory 192GiB, 실행 환경 VSCode(Remote) / CUDA 12.4 |
 
 ## 문서 구성
